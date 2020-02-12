@@ -36,7 +36,7 @@ function Home(props) {
                      </div>
                      <Form onSubmit={(e) => handleSubmit(e)}>
                         <label>Nome/Apelido</label><br/>
-                        <input className="form-control" type="text" placeholder="Entre com seu nome ou apelido." value={name} onChange={ (e) => setName(e.target.value) }  /> <br/>
+                        <input className="form-control" type="text" placeholder="Pesquise seu nome ou apelido." value={name} onChange={ (e) => setName(e.target.value) }  /> <br/>
                         <Button type="submit" className="float-right">Acessar</Button>
                      </Form>
                   </Card.Body>
